@@ -6,6 +6,18 @@ Last Modified: 2014-08-15
 
 ## Standards
 
+### Comments
+
+Block comments should be placed directly above the Subroutine or Function it is referencing:
+
+```vb
+'===============================================================================
+' This function validates the user. 
+' If not valid, jump to appropriate page, otherwise just return.
+'===============================================================================
+Private Sub Setup_CheckToken()
+```
+
 ### Header
 
 Files should begin with the standard header and documentation (Use `Admin_ClassAdd.asp` for reference):
