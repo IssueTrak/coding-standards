@@ -387,5 +387,7 @@ Development Process
 		* Built-in relationship mapping.
 		* Testable.
 
-A collection of best practice standards from around the web and for our specific project needs.
+## Best Practices
+
+TBD
 
