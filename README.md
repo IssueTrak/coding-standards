@@ -19,19 +19,11 @@ Installation is as easy as checking out the repository to the correct location
 
 ## Terminology & Definitions
 
-<dl>
-  <dt><strong>Access Modifier</strong></dt>
-  <dd>
-	keywords public, protected, internal, and private declare the allowed code-accessibility of types
-	and their members. Although default access modifiers vary, classes and most other members use the default
-	of private. Notable exceptions are interfaces and enums which both default to public.
-  </dd>
-  <dt><strong>Camel Case</strong></dt>
-  <dd>
-	A word with the first letter lowercase, and the first letter of each subsequent word-part capitalized. <strong>Example</strong>: customerName
-  </dd>
-  <dt><strong>Pascal Case</strong></dt>
-  <dd>
-	A word with the first letter capitalized, and the first letter of each subsequent word-part capitalized. <strong>Example</strong>: CustomerName
-  </dd>
-</dl>
+|Term | Definition                                                |
+|-------------| ----------------------------------------------------------|
+|Access Modifier | keywords public, protected, internal, and private declare the allowed code-accessibility of types and their members. Although default access modifiers vary, classes and most other members use the default of private. Notable exceptions are interfaces and enums which both default to public.|
+|Camel Case | A word with the first letter lowercase, and the first letter of each subsequent word-part capitalized. (e.g. **customerName**) |
+|Pascal Case | A word with the first letter capitalized, and the first letter of each subsequent word-part capitalized. (e.g. **CustomerName**) |
+| Magic Number | Any numeric literal used within an expression (or to initialize a variable) that does not have an obvious or well known meaning. This usually excludes the integers 0 or 1 and any other numeric equivalent precision that evaluates as zero. |
+| Identifier | A developer defined token used to uniquely name a declared object or object instance. Example: `public class MyClassNameIdentifier { … }` |
+
