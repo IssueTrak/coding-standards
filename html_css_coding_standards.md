@@ -20,6 +20,7 @@ HTML5 / CSS3 Coding Standards
 
 ### Example of style
 
+```css
 	/* header */
 		.action .action-information,
 		.button .information:last-child {
@@ -59,6 +60,7 @@ HTML5 / CSS3 Coding Standards
 		.action a {
 			color: rgba(0, 0, 0, .2);
 		}
+```
 
 ### Structure of a style
 
@@ -80,20 +82,26 @@ Use "semi-expanded" structure.
 * By the length of prefix (long to short) for vendor prefixed properties.
 * Carry on the alphabetical order for multiple properties (e.g. border-bottom, border-left...):
 
+```css
 		.download {
 			border-bottom: 1px solid #000;
 			border-left: 2px solid #000;
 			border-right: 1px solid #000;
 			border-top: 2px solid #000;
 		}
+```
+
 
 ### Property value order
 
+```css
 		background: [colour] ["url"] [scroll] [repeat] [position];
 		border: [size] [type] [colour];
+```
 
 ### Prefixed Property value spacing
 
+```css
 		.download {
 			-webkit-transition: all 700ms ease;
 			-moz-transition:    all 700ms ease;
@@ -101,6 +109,7 @@ Use "semi-expanded" structure.
 			-o-transition:      all 700ms ease;
 			transition:         all 700ms ease;
 		}
+```
 				
 ### Text formatting
 
@@ -204,11 +213,12 @@ Comment within a stylesheet to aid other developers.
 		 * 8. @mediaqueries
 		 */
 
+
 Use indentation and comments to section a stylesheet. There are two types of comments:
 
 1. Sectioning comments.
 2. Property comments.
-
+```css
 		/* sectioning comment e.g. "header" */
 			header {
 				margin: 0;
@@ -223,6 +233,7 @@ Use indentation and comments to section a stylesheet. There are two types of com
 				header search {
 					display: inline; /* property comment e.g. ie double margin fix */
 				}
+```
 
 ### Selector naming
 
@@ -240,6 +251,7 @@ Use indentation and comments to section a stylesheet. There are two types of com
 
 * Do not mimic tag names when naming classes, unless they are prefixed. e.g. .component-body.
 
+```css
 		.actions (grouping - plural)
 			.action (pattern - noun) .action-collapse (sub pattern - verb)
 				.action-inner (pattern part)
@@ -249,6 +261,7 @@ Use indentation and comments to section a stylesheet. There are two types of com
 							.action-copy (pattern part)
 
 		.folder .is-collapsed (state - past participle)
+```
 
 ### Progressive enhancement in CSS
 
@@ -260,10 +273,12 @@ Use indentation and comments to section a stylesheet. There are two types of com
 
 #### Backgrounds (language feature)
 
+```css
 		.text-area {
 			background: url("/images/background-000-50.png") repeat; /* IE fix */
 			background: rgba(0, 0, 0, 0.5);
 		}
+```
 
 * Start with fall back definition to support older browsers.
 * Implement newer definition last.
