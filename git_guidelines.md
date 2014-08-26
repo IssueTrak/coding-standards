@@ -24,14 +24,14 @@ Assuming you have the appropriate repo cloned to your local workstation and have
 
 ### Visual Studio Workflow
 
-1. From [Team Explorer][teamexplorer] home click 'Unsynched Commits' and then click the 'Sync' button
+1. From [Team Explorer][teamexplorer] home click 'Unsynced Commits' and then click the 'Sync' button
 2. Click Team Explorer home button and then 'Branches'
-3. Click the 'New Branch' dropdown and enter a branch name (make sure the second dropdown is 'master')
+3. Click the 'New Branch' drop-down and enter a branch name (make sure the second drop-down is 'master')
 4. [DO YOUR WORK HERE]
 5. From Team Explorer home click 'Changes'. Enter a commit message and click the 'Commit' button.
-6. From Team Explorer home click 'Branches' and then click the 'Merge' dropdown button.
+6. From Team Explorer home click 'Branches' and then click the 'Merge' drop down button.
 7. Select your branch from Step 3 as source and 'master' as the destination. Click 'Merge' button.
-8. Click the 'Unsynched Commits' and then select 'master' for the branch. Click the 'Sync' button.
+8. Click the 'Unsynced Commits' and then select 'master' for the branch. Click the 'Sync' button.
 
 ### Commandline Workflow
 
@@ -66,7 +66,7 @@ _send your changes to the remote repo (i.e. TFS)_
 
 Commit messages should follow the guidelines described in detail in [Tim Pope's "A Note About Git Commit Messages"][tpope].
 
-**Note:** _Visual Studio 2012 & 2013 just hit the enter key in the commit message textbox to add more lines._
+**Quick Tip:** _For Visual Studio 2012 & 2013 using the Team Explorer -- just hit the enter key in the commit message textbox to add additional lines._
 
  In summary:
 
