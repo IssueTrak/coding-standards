@@ -66,7 +66,7 @@ _send your changes to the remote repo (i.e. TFS)_
 
 Commit messages should follow the guidelines described in detail in [Tim Pope's "A Note About Git Commit Messages"][tpope].
 
-**Note:** _Visual Studio 2012 & 1213 will only allow the first line of the commit message, but the commandline and other tools (such as [SourceTree][sourcetree] and the [GitHub Windows][gitforwin] clients) can allow for longer commit messages._
+**Note:** _Visual Studio 2012 & 2013 just hit the enter key in the commit message textbox to add more lines._
 
  In summary:
 
@@ -99,13 +99,13 @@ Use the present tense when writing messages, i.e. "Fix bug, apply patch", not "F
 
 * linked to a TFS issue:
 
-		TFS #500: Implement custom swagger comment attribute
+		Implement custom swagger comment attribute
 
 		Story for the following item: Add the ability to annotate API
 		methods with attributes which will be shown in the Swagger
 		API documentation.
 
-		http://tfs.issuetrak.com:8080/tfs/Development/IssueTrak%20API/_workitems#_a=edit&id=500
+		Related Work Items: #500
 
 * general issue:
 
