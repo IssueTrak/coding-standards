@@ -13,7 +13,7 @@ This document describes the conventions and best practices applicable to IssueTr
 - [Git Daily Workflow](#git-daily-workflow)
 - [Commit Messages](#commit-messages)
 - [Pulling and pushing to master](#pulling-and-pushing-to-master)
-- [Best Practices](#Best-Practices)
+- [Best Practices](#best-practices)
 - [Terminology & Definitions](#terminology--definitions)
 
 

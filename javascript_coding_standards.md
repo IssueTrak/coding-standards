@@ -8,6 +8,17 @@ Last Modified: 2014-08-15
 
 The current standards derive from Douglas Crockford's [Code Conventions for the JavaScript Programming Language](http://javascript.crockford.com/code.html)
 
+## Table of Contents
+
+- [Comments](#comments)
+- [Variable Declarations](#variable-declarations)
+- [Function Declarations](#function-declarations)
+- [Names](#names)
+- [Statements](#statements)
+- [Whitespace](#whitespace)
+- [Bonus Suggestions](#bonus-suggestions)
+
+
 ### Comments
 
 Be generous with comments. It is useful to leave information that will be read at a later time by people (possibly yourself) who will need to understand what you have done. The comments should be well-written and clear, just like the code they are annotating. An occasional nugget of humor might be appreciated. Frustrations and resentments will not.
