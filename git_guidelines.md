@@ -118,13 +118,11 @@ Use the present tense when writing messages, i.e. "Fix bug, apply patch", not "F
 		for more information.
 
 
-## Pulling and pushing to master
-
-TBD
 
 ## Best Practices
 
 * Bugs are fixed on the main branch and merged or 'cherry-picked' into the appropriate release branch.
+* Always ensure all unit tests are passing before pushing your code to remote.
 
 Two things you should never do in git:
 - NEVER force a push
