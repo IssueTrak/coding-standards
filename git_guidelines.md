@@ -8,6 +8,14 @@ Last Modified: 2014-08-26
 
 This document describes the conventions and best practices applicable to IssueTrak project repositories. They are roughly based on [Fedora's Git Guidelines and Best Practices][fedoragit]
 
+### Table of Contents
+
+- [Git Daily Workflow](#Git-Daily-Workflow)
+- [Commit Messages](#Commit-Messages)
+- [Pulling and pushing to master](#Pulling-and-pushing-to-master)
+- [Best Practices](#Best-Practices)
+- [Terminology & Definitions](#Terminology-&-Definitions)
+
 
 ## Git Daily Workflow
 
@@ -100,7 +108,9 @@ Use the present tense when writing messages, i.e. "Fix bug, apply patch", not "F
 
 ## Pulling and pushing to master
 
+TBD
 
+## Best Practices
 
 Two things you should never do in git:
 - NEVER force a push
