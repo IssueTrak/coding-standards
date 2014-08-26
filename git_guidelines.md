@@ -10,11 +10,11 @@ This document describes the conventions and best practices applicable to IssueTr
 
 ### Table of Contents
 
-- [Git Daily Workflow](#Git-Daily-Workflow)
-- [Commit Messages](#Commit-Messages)
-- [Pulling and pushing to master](#Pulling-and-pushing-to-master)
+- [Git Daily Workflow](#git-daily-workflow)
+- [Commit Messages](#commit-messages)
+- [Pulling and pushing to master](#pulling-and-pushing-to-master)
 - [Best Practices](#Best-Practices)
-- [Terminology & Definitions](#Terminology-&-Definitions)
+- [Terminology & Definitions](#terminology--definitions)
 
 
 ## Git Daily Workflow
