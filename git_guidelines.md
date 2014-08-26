@@ -6,7 +6,7 @@ Last Modified: 2014-08-26
 
 ## Summary
 
-This document describes the conventions and best practices applicable to IssueTrak project repositories. They are roughly based on [Fedora's Git Guidelines and Best Practices][fedoragit]
+This document describes the conventions and best practices applicable to IssueTrak project repositories. They are roughly based on [Fedora's Git Guidelines and Best Practices][fedoragit].
 
 ### Table of Contents
 
@@ -19,17 +19,29 @@ This document describes the conventions and best practices applicable to IssueTr
 
 ## Git Daily Workflow
 
+IssueTrak does [Trunk Based Development (TBD)][tbd] (aka mainline development)
 Assuming you have the appropriate repo cloned to your local workstation and have checked out the master branch:
 
-From the commandline it looks like this:
+### Visual Studio Workflow
+
+1. From [Team Explorer][teamexplorer] home click 'Unsynched Commits' and then click the 'Sync' button
+2. Click Team Explorer home button and then 'Branches'
+3. Click the 'New Branch' dropdown and enter a branch name (make sure the second dropdown is 'master')
+4. [DO YOUR WORK HERE]
+5. From Team Explorer home click 'Changes'. Enter a commit message and click the 'Commit' button.
+6. From Team Explorer home click 'Branches' and then click the 'Merge' dropdown button.
+7. Select your branch from Step 3 as source and 'master' as the destination. Click 'Merge' button.
+8. Click the 'Unsynched Commits' and then select 'master' for the branch. Click the 'Sync' button.
+
+### Commandline Workflow
 
 `git pull`
 _pull all the changes from the remote repo_
 
 `git checkout -b branch-name-here`
-_create a new local branch for your bug/issue/story_
+_create a new local branch for your bug/issue/story (i.e. git checkout -b devtrak15391)_
 
-__DO YOUR WORK HERE__
+[DO YOUR WORK HERE]
 _keep it in small chunks, the smaller your commits the better, in case things go wrong_
 
 `git add .`
@@ -112,12 +124,13 @@ TBD
 
 ## Best Practices
 
+* Bugs are fixed on the main branch and merged or 'cherry-picked' into the appropriate release branch.
+
 Two things you should never do in git:
 - NEVER force a push
 	- If you find yourself in a situation where your changes can't be pushed upstream, something is wrong. Contact another IssueTrak developer for help tracking down the problem.
 - NEVER rebase a branch that you pushed, or that you pulled from another person. 
 	- Rebasing published branches can lead to duplicate commits in the shared repository
-
 
 ## Terminology & Definitions
 
@@ -137,3 +150,5 @@ Two things you should never do in git:
 [sourcetree]: http://www.sourcetreeapp.com/
 [gitforwin]: https://windows.github.com/
 [simplegit]: http://rogerdudler.github.io/git-guide/
+[tbd]: http://paulhammant.com/2013/04/05/what-is-trunk-based-development/
+[teamexplorer]: http://msdn.microsoft.com/en-us/library/hh500420.aspx
