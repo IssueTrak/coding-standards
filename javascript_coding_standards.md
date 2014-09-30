@@ -253,16 +253,18 @@ A switch statement should have the following form:
 
 ```js
 switch (expression) {
-case expression:
-    statements
-default:
-    statements
+	case expression:
+    	statements
+    	break;
+    	
+	default:
+    	statements
 }
 ```
 
-Each case is aligned with the switch. This avoids over-indentation. A case label is not a statement, and should not be indented like one.
+Each case is indented in the switch.
 
-Each group of statements (except the default) should end with break, return, or throw. Do not fall through.
+Each group of statements (except the default) should end with break, return, or throw. Do not fall through. After each break, return, or throw, there should be a blank line.
 
 ##### try Statement
 
