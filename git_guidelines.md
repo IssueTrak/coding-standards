@@ -1,8 +1,8 @@
 Git Guidelines and Best Practices
 =================================
 
-Date Created: 2014-08-26
-Last Modified: 2014-08-26  
+Date Created: 2014-08-26  
+Last Modified: 2014-08-26    
 
 ## Summary
 
