@@ -15,23 +15,20 @@ Please refer to the [Semantic Versioning Website][semver] for additional informa
 
 ## Releases
 
-Releases for IssueTrak fall in to 3 categories:
+Releases for IssueTrak fall in to 2 categories:
 
 1. Standard release
-2. Patch (or [Hotfix][hotfix]) release
-3. Service release
+2. Patch release
 
 
 
 ### Standard release
 
-Typical IssueTrak releases are the `Major.Minor` number combination.
+Typical IssueTrak releases are the `Major.Minor` number combination. A standard release contains features and can also have fixes as well.
 
 ### Patch release
 
-### Service release
-
-Service releases are a collection of patch releases that are created from time to time when the number of patches are such that one installer applying all of the fixes is more efficient than applying each patch individually. 
+IssueTrak patch releases are the `Major.Minor.Patch` number combination. Patch releases consist of only fixes/refactoring and no new features.
 
 
 ---
