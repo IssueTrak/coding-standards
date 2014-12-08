@@ -255,14 +255,16 @@ A switch statement should have the following form:
 switch (expression) {
 case expression:
     statements
+    break;
+
 default:
     statements
 }
 ```
 
-Each case is aligned with the switch. This avoids over-indentation. A case label is not a statement, and should not be indented like one.
+Cases are not indented further than the containing "switch" line. This prevents over-indention for case-contained statements.
 
-Each group of statements (except the default) should end with break, return, or throw. Do not fall through.
+Each group of statements (except the default) should end with break, return, or throw. Do not fall through. After each break, return, or throw, there should be a blank line.
 
 ##### try Statement
 
