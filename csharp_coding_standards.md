@@ -346,7 +346,7 @@ The following sections describe the preferred way to implement C# source code in
 2. Avoid putting multiple classes in a single file.
 3. Always place curly braces (*{* and *}*) on a new line.
 4. Always use curly braces (*{* and *}*) in conditional statements.
-5. Always use a Tab & Indention size of *4*.
+5. Always use a Tab & Indention size of *4* spaces. (i.e. when you press tab it adds 4 spaces to the file)
 6. Declare each variable independently – not in the same statement.
 7. Place namespace “*using*” statements together at the top of file. Group .NET namespaces above custom
 namespaces.
