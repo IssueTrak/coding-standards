@@ -5,8 +5,8 @@ Date Created: 2014-08-15
 Last Modified: 2014-08-15
 Maintainer: Ken Taylor <[ken.taylor@issuetrak.com](mailto:ken.taylor@issuetrak.com?Subject=Csharp%20Coding%20Standards)>  
 
-These standards are largely based on version 1.5 of [Lance Hunt's](http://www.lance-hunt.net) C# Coding Standards for .NET.
-*Note: All tab vs space holy-wars were resolved*
+These standards are largely based on version 1.5 of [Lance Hunt's](http://www.lance-hunt.net) C# Coding Standards for .NET.  
+*Note: All tab vs space holy-wars were resolved (...hopefully)*
 
 # Table of Contents
 
