@@ -104,11 +104,11 @@ the sake of Abstraction.”
 
 ### 1.4.1 Naming Conventions
 
-_Legend:_
-**"c" = camelCase**
-**"P" = PascalCase**
-**"_" = Prefix with _Underscore**
-"x" = **Not Applicable**
+_Legend:_  
+**"c" = camelCase**  
+**"P" = PascalCase**  
+**"_" = Prefix with _Underscore**  
+"x" = **Not Applicable**  
 
 | Identifier           | Public     | Protected | Internal | Private  | Notes                                |
 |----------------------|------------|-----------|----------|----------|--------------------------------------|
