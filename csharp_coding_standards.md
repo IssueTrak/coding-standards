@@ -15,6 +15,25 @@ These standards are largely based on version 1.5 of [Lance Hunt's](http://www.la
 	* [1.2 Document Conventions](#12-document-conventions)
 	* [1.3 Terminology & Definitions](#13-terminology--definitions)
 	* [1.4 Flags](#14-flags)
+		* [1.4.1 Naming Conventions](#141-naming-conventions)
+		* [1.4.2 Coding Style](#142-coding-style)
+		* [1.4.3 Language Usage](#143-language-usage)
+* [2. Naming Conventions](#2-naming-conventions)
+	* [2.1 General Guidelines](#21-general-guidelines)
+	* [2.2 Name Usage & Syntax](#22-name-usage--syntax)
+* [3. Coding Style](#3-coding-style)
+	* [3.1 Formatting](#31-formatting)
+	* [3.2 Code Commenting](#32-code-commenting)
+* [4. Language Usage](#4-language-usage)
+	* [4.1 General](#41-general)
+	* [4.2 Variables & Types](#42-variables--types)
+	* [4.3 Flow Control](#43-flow-control)
+	* [4.4 Exceptions](#44-exceptions)
+	* [4.5 Events, Delegates & Threading](#45-events-delegates--threading)
+	* [4.6 Object Composition](#46-object-composition)
+* [5. Object Model & API Design](#5-object-model--api-design)
+* [6. References](#6-references)
+* [7. Best Practices](#7-best-practices)
 
 # 1. Introduction
 
@@ -656,6 +675,7 @@ maintained.
 			info.AddValue("MyValue", _myValue);
 		}
 		```
+
 ## 4.5 Events, Delegates & Threading
 
 60. Always check Event & Delegate instances for `null` before invoking.
@@ -776,4 +796,4 @@ where appropriate.
 
 ---
 
-[Table of Contents](#Table of Contents)
+[Table of Contents](#table-of-contents)
