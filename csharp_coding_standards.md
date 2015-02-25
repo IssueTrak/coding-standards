@@ -792,7 +792,7 @@ where appropriate.
 # 7. Best Practices
 
 1. Write unit tests
-2. Write your unit tests **FIRST** (i.e. TDD)
+2. Write your unit tests **FIRST** (i.e. [TDD](http://agiledata.org/essays/tdd.html))
 
 ---
 
