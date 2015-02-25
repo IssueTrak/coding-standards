@@ -10,10 +10,11 @@ These standards are largely based on version 1.5 of [Lance Hunt's](http://www.la
 
 # Table of Contents
 
-* [1. Introduction](#1. Introduction)
-	* [1.1 Scope](##1.1 Scope)
-	* [1.2 Document Conventions](##conv)
-	* [1.3 Terminology & Definitions](##1.3 Terminology & Definitions)
+* [1. Introduction](#1-introduction)
+	* [1.1 Scope](#11-scope)
+	* [1.2 Document Conventions](#12-document-conventions)
+	* [1.3 Terminology & Definitions](#13-terminology--definitions)
+	* [1.4 Flags](#14-flags)
 
 # 1. Introduction
 
