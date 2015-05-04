@@ -146,7 +146,7 @@ Vs.
 
 ## Naming Integration Test Projects
 
-If you are creating an integration test project, make sure it is named as such. **DO NOT use Test(s) in the naming**.
+If you are creating an integration test project, make sure it is named as such. **DO NOT** use "Test" in the naming.
 
 Example:
 
