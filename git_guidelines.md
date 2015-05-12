@@ -70,23 +70,14 @@ Commit messages should follow the guidelines described in detail in [Tim Pope's 
 
  In summary:
 
-- First line: DevTrak or Support Issue ID, followed by a brief description (~50 characters)
+- First line: Support Issue ID (*if it is a defect from Support*), followed by a brief description (~50 characters)
 - Second line: blank
 - Following lines: more detailed description, line-wrapped at 72 characters. May contain multiple paragraphs, separated by blank lines. Link to the Issue, if applicable.
 
 Use the present tense when writing messages, i.e. "Fix bug, apply patch", not "Fixed bug, applied patch."
 
-**Four sample commit messages**
+**Three sample commit messages**
 
-* linked to a DevTrak issue:
-
-		DevTrak #15391: Fix bug, update date formats
-	
-		Fix for the following bug: IssueTrak will not submit an issue when 
-		certain date formats are set. These include: dd-mmm-yyyy, dd-mmm-yy, 
-		dd/mm/yyy and dd/mm/yy.
-
-		http://devtrak/CSIssue_View.asp?IssueNbr=15391
 
 * linked to a Support issue:
 
