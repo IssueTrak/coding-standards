@@ -6,15 +6,16 @@ Last Modified: 2014-05-04
 
 These are the general coding standards for IssueTrak Projects and any other resources which may be helpful in that respect.
 
-Currently they fall into 7 categories:
+Currently they fall into 8 categories:
 
-1. [Git Guidelines and Best Practices](git_guidelines.md)
-2. [ASP Coding Standards](asp_coding_standards.md)
-3. [C\# Coding Standards](csharp_coding_standards.md)
-4. [HTML5/CSS3](html_css_coding_standards.md)
-5. [JavaScript Coding Standards](javascript_coding_standards.md)
-6. [Software Versioning Guidelines](software_versioning_guidelines.md)
-7. [Unit Test Guidelines and Best Practices](unit_test_guidelines.md)
+1. [IssueTrak Software Development Fundamentals](issuetrak_software_development_fundamentals.md)
+2. [Git Guidelines and Best Practices](git_guidelines.md)
+3. [ASP Coding Standards](asp_coding_standards.md)
+4. [C\# Coding Standards](csharp_coding_standards.md)
+5. [HTML5/CSS3](html_css_coding_standards.md)
+6. [JavaScript Coding Standards](javascript_coding_standards.md)
+7. [Software Versioning Guidelines](software_versioning_guidelines.md)
+8. [Unit Test Guidelines and Best Practices](unit_test_guidelines.md)
 
 
 ## Installation
