@@ -2,7 +2,7 @@ C\# Coding Standards
 ====================
 
 Date Created: 2014-08-15
-Last Modified: 2014-08-15
+Last Modified: 2016-04-07
 Maintainer: Ken Taylor <[ken.taylor@issuetrak.com](mailto:ken.taylor@issuetrak.com?Subject=Csharp%20Coding%20Standards)>  
 
 These standards are largely based on version 1.5 of [Lance Hunt's](http://www.lance-hunt.net) C# Coding Standards for .NET.  
@@ -182,7 +182,7 @@ access modifier (*protected*, *public*, *private*, *internal*) that vary only by
 10. Avoid using abbreviations unless the full name is excessive.
 11. Avoid abbreviations longer than 5 characters.
 12. Any Abbreviations must be widely known and accepted.
-13. Use uppercase for two-letter abbreviations, and Pascal Case for longer abbreviations.
+13. Use Pascal or Camel Case as appropriate for abbreviations.  Do not use all capitals for abbreviations.
 14. Do not use C# reserved words as names.
 15. Avoid naming conflicts with existing .NET Framework namespaces, or types.
 16. Avoid adding redundant or meaningless prefixes and suffixes to identifiers  
@@ -527,7 +527,7 @@ data sources.
 	{
 		if(customerList[i].Name.ToLower() == name)
 		{
-			id = customerList[i].ID;
+			id = customerList[i].Id;
 		}
 	}
 
@@ -541,7 +541,7 @@ data sources.
 		// case-insensitive compare without new allocation.
 		if(String.Compare(customerList[i].Name, name, true)== 0)
 		{
-			id = customerList[i].ID;
+			id = customerList[i].Id;
 		}
 	}
 	```
