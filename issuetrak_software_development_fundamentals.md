@@ -17,7 +17,7 @@ These fundamentals include (_but are not limited to_):
 
 ### Naming
 
-Names of classes, variables, methods, functions, etc. should reveal the intention. For that reason (and others, we use [Tim Ottinger's Rules for Variable and Class Naming][ottingers].
+Names of classes, variables, methods, functions, etc. should reveal the intention. For that reason (and others, we use [Tim Ottiger's Rules for Variable and Class Naming][ottigers].
 
 ### Functions
 
@@ -123,7 +123,7 @@ We use the [code review checklist][checklist] to remind us of the areas we need 
 [cleancode]: https://cleancoders.com/category/fundamentals
 [unclebob]: https://en.wikipedia.org/wiki/Robert_Cecil_Martin
 [ccbook]: http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
-[ottingers]: ottingers-rules-for-naming.pdf
+[ottigers]: ottigers-rules-for-naming.pdf
 [pullrequest]: http://yangsu.github.io/pull-request-tutorial/
 [tdd]: https://en.wikipedia.org/wiki/Test-driven_development
 [review]: https://en.wikipedia.org/wiki/Code_review
