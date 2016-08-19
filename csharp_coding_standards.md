@@ -23,7 +23,8 @@ These standards are largely based on version 1.5 of [Lance Hunt's](http://www.la
 	* [2.2 Name Usage & Syntax](#22-name-usage--syntax)
 * [3. Coding Style](#3-coding-style)
 	* [3.1 Formatting](#31-formatting)
-	* [3.2 Code Commenting](#32-code-commenting)
+	* [3.2 Regions](#32-regions)
+	* [3.3 Code Commenting](#33-code-commenting)
 * [4. Language Usage](#4-language-usage)
 	* [4.1 General](#41-general)
 	* [4.2 Variables & Types](#42-variables--types)
@@ -386,34 +387,36 @@ declaration.
 19. Place Parameter *attribute* declarations inline with the parameter.
 20. If in doubt, always err on the side of clarity and consistency. 
 
-## 3.2 Code Commenting
+## 3.2 Regions
 
-21. All comments should be written in the same language, be grammatically correct, and contain appropriate
+## 3.3 Code Commenting
+
+1. All comments should be written in the same language, be grammatically correct, and contain appropriate
 punctuation.
-22. Use // or /// but never /* … */
-23. Do not “flowerbox” comment blocks.
+2. Use // or /// but never /* … */
+3. Do not “flowerbox” comment blocks.
 	- Example:
 	```
 	// ***************************************
 	// Comment block
 	// ***************************************
 	```
-24. Use inline-comments to explain assumptions, known issues, and algorithm insights.
-25. Do not use inline-comments to explain obvious code. Well written code is self documenting.
-26. Only use comments for bad code to say “fix this code” – otherwise remove, or rewrite the code!
-27. Include comments using Task-List keyword flags to allow comment-filtering.
+4. Use inline-comments to explain assumptions, known issues, and algorithm insights.
+5. Do not use inline-comments to explain obvious code. Well written code is self documenting.
+6. Only use comments for bad code to say “fix this code” – otherwise remove, or rewrite the code!
+7. Include comments using Task-List keyword flags to allow comment-filtering.
 	- Example:
 	```
 	// TODO: Place Database Code Here
 	// UNDONE: Removed P\Invoke Call due to errors
 	// HACK: Temporary fix until able to refactor
 	```
-28. Always apply C# comment-blocks (///) to *public*, *protected*, and *internal* declarations.
-29. Only use C# comment-blocks for documenting the API.
-30. Always include `<summary>` comments. Include `<param>`, `<return>`, and `<exception>` comment
+8. Always apply C# comment-blocks (///) to *public*, *protected*, and *internal* declarations.
+9. Only use C# comment-blocks for documenting the API.
+10. Always include `<summary>` comments. Include `<param>`, `<return>`, and `<exception>` comment
 sections where applicable.
-31. Include `<see cref=””/>` and `<seeAlso cref=””/>` where possible.
-32. Always add **CDATA** tags to comments containing code and other embedded markup in order to avoid
+11. Include `<see cref=””/>` and `<seeAlso cref=””/>` where possible.
+12. Always add **CDATA** tags to comments containing code and other embedded markup in order to avoid
 encoding issues.
 	- Example:
 	```
