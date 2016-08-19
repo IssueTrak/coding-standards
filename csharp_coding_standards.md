@@ -389,6 +389,18 @@ declaration.
 
 ## 3.2 Regions
 
+Regions must be used in all code files, to group class members, first by declaration type, and then by accessibility level. Declaration types, in order of precedence, are:
+
+1. Constants
+2. Enums
+3. Fields
+4. Delegates
+5. Properties
+6. Constructors
+7. Methods
+8. Nested Types
+
+
 ## 3.3 Code Commenting
 
 1. All comments should be written in the same language, be grammatically correct, and contain appropriate
