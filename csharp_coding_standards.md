@@ -389,7 +389,9 @@ declaration.
 
 ## 3.2 Regions
 
-Regions must be used in all code files, to group class members, first by declaration type, and then by accessibility level. Declaration types, in order of precedence, are:
+Regions must be used to group class members in all code files. Members will be placed into regions that correspond to a combination of declaration type and accessibility level, for example, "Private Constants". Regions will be ordered first by declaration type (all regions for Constants will be grouped together), and then by accessibility level (Private Constants before Public Constants).
+
+Declaration types, in order of precedence, are:
 
 1. Constants
 2. Enums
@@ -400,6 +402,12 @@ Regions must be used in all code files, to group class members, first by declara
 7. Methods
 8. Nested Types
 
+Accesibility levels, in order of precedence, are:
+
+1. Private Static
+2. Private Instance
+3. Public Static
+4. Public Instance
 
 ## 3.3 Code Commenting
 
