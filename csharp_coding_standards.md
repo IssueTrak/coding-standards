@@ -348,8 +348,7 @@ The following sections describe the preferred way to implement C# source code in
 4. Always use curly braces (*{* and *}*) in conditional statements.
 5. Always use a Tab & Indention size of *4* spaces. (i.e. when you press tab it adds 4 spaces to the file)
 6. Declare each variable independently – not in the same statement.
-7. Place namespace “*using*” statements together at the top of file. Group .NET namespaces above custom
-namespaces.
+7. Place namespace “*using*” statements together at the top of file, outside of the file's namespace scope. Group .NET namespaces above custom namespaces.
 8. Group internal class implementation by type in the following order:
 	1. Member variables.
 	2. Constructors & Finalizers.
