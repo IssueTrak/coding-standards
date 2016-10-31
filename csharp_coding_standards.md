@@ -340,7 +340,7 @@ appropriate.
 Coding style causes the most inconsistency and controversy between developers. Each developer has a preference, and rarely are two the same. However, consistent layout, format, and organization are key to creating maintainable code.
 The following sections describe the preferred way to implement C# source code in order to create readable, clear, and consistent code that is easy to understand and maintain.
 
-## 3.1 Formatting
+## 3.1 General Formatting
 
 1. Never declare more than 1 namespace per file.
 2. Avoid putting multiple classes in a single file.
@@ -387,7 +387,68 @@ declaration.
 19. Place Parameter *attribute* declarations inline with the parameter.
 20. If in doubt, always err on the side of clarity and consistency. 
 
-## 3.2 Code Commenting
+## 3.2 Organizing Class Members With Regions
+
+All class members should be ordered into regions by their member type (fields, properties, constructors, etc.), accessibility level (private, internal, public), and instance relationship (instance vs. static). The agreed-upon order for member type regions is:
+
+* Constants
+    * Private
+    * Public
+
+* Enums
+    * Private
+    * Public
+
+* Fields
+    * Private Static
+    * Private Instance
+
+* Delegates
+    * Private Static
+    * Private Instance
+    * Public Static
+    * Public Instance
+
+* Properties
+    * Private Static
+    * Private Instance
+    * Public Static
+    * Public Instance
+
+* Constructors
+    * Static
+    * Private Instance
+    * Public Instance
+
+* Methods
+    * Private Static
+    * Private Instance
+    * Public Static
+    * Public Instance
+
+* Interface implementations should be encapsulated within interface-specific regions, and follow the master order.
+
+* Nested Types (excluding Enums, no specific order)
+    * Private
+    * Public
+
+## 3.3 Long Lines
+
+Lines should be kept under 140 characters without exception, and should in general be shorter than 140 characters. When formatting expressions so they span multiple lines, parentheses that break across lines should themselves be put on separate lines and indented (see example below).
+
+```c#
+// incorrect (too long)
+instance.SomeMethod(firstOuterArgument, context.SomeOtherMethod(firstInnerArgument, secondInnerArgument, thirdInnerArgument));
+
+// correct (with parenthesis break)
+instance.SomeMethod
+    (
+        firstOuterArgument,
+        context.SomeOtherMethod(firstInnerArgument, secondInnerArgument, thirdInnerArgument)
+    );
+```
+
+## 3.4 Code Commenting
 
 21. All comments should be written in the same language, be grammatically correct, and contain appropriate
 punctuation.

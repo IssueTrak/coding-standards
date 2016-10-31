@@ -119,6 +119,18 @@ If the answer is __NO__, the source code is __NOT__ fit for production.
 
 We use the [code review checklist][checklist] to remind us of the areas we need to check.
 
+### Rules for Pull Requests
+
+We use [pull requests][pullrequest] (abbreviated "PR" or "PRs") in our daily workflow to facilitate code reviews. When creating PRs:
+
+1. Assign new pull requests to all developers on the team.
+
+2. If there are merge conflicts between the PR branch and the master branch, the developer creating the PR is responsible for resolving the conflicts. Other developers should wait to review until after the conflicts have been resolved.
+
+3. Only the original developer should actually complete the merge. (NB: This may change because of new capabilities available in GitHub.)
+
+4. At least one endorsement from a second developer is required before the original developer is allowed to complete the merge. The original developer can always request further endorsements before deciding to complete the merge.
+
 ---
 [cleancode]: https://cleancoders.com/category/fundamentals
 [unclebob]: https://en.wikipedia.org/wiki/Robert_Cecil_Martin
