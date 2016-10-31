@@ -387,7 +387,52 @@ declaration.
 19. Place Parameter *attribute* declarations inline with the parameter.
 20. If in doubt, always err on the side of clarity and consistency. 
 
-## 3.2 Code Commenting
+## 3.2 Organizing Class Members With Regions
+
+All class members should be ordered into regions by their member type (fields, properties, constructors, etc.), accessibility level (private, internal, public), and instance relationship (instance vs. static). The agreed-upon order for member type regions is:
+
+* Constants
+    * Private
+    * Public
+
+* Enums
+    * Private
+    * Public
+
+* Fields
+    * Private Static
+    * Private Instance
+
+* Delegates
+    * Private Static
+    * Private Instance
+    * Public Static
+    * Public Instance
+
+* Properties
+    * Private Static
+    * Private Instance
+    * Public Static
+    * Public Instance
+
+* Constructors
+    * Static
+    * Private Instance
+    * Public Instance
+
+* Methods
+    * Private Static
+    * Private Instance
+    * Public Static
+    * Public Instance
+
+* Interface implementations should be encapsulated within interface-specific regions, and follow the master order.
+
+* Nested Types (excluding Enums, no specific order)
+    * Private
+    * Public
+
+## 3.3 Code Commenting
 
 21. All comments should be written in the same language, be grammatically correct, and contain appropriate
 punctuation.
