@@ -58,7 +58,7 @@ End Sub
 
 ### Variable Declaration ("Dim")
 
-All variable declarations should occur on a separate line. Variables may be initialized on the same line as they're declaration.
+Each variable declaration should occur on a separate line. Variables may be initialized on the same line as their declaration.
 
 
 ```vb
