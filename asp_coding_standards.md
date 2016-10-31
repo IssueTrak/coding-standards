@@ -56,6 +56,22 @@ End Sub
 
 ```
 
+### Variable Declaration ("Dim")
+
+All variable declarations should occur on a separate line. Variables may be initialized on the same line as they're declaration.
+
+
+```vb
+' incorrect
+Dim someVariable, someOtherVariable
+
+' correct
+Dim someVariable
+Dim someOtherVariable
+
+' also correct
+Dim initializedVariable: initializedVariable = 0
+```
 
 ## Best Practices
 
