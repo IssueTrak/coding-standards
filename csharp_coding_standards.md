@@ -112,7 +112,7 @@ _Legend:_
 
 | Identifier           | Public     | Protected | Internal | Private  | Notes                                |
 |----------------------|------------|-----------|----------|----------|--------------------------------------|
-| Project File		   | **P**      | x         | x        | x        | Match Assembly & Namespace.          |
+| Project File	       | **P**      | x         | x        | x        | Match Assembly & Namespace.          |
 | Source File          | **P**      | x         | x        | x        | Match contained class.               |
 | Other Files          | **P**      | x         | x        | x        | Apply where possible.                |
 | Namespace            | **P**      | x         | x        | x        | Partial Project/Assembly match.      |
@@ -120,6 +120,7 @@ _Legend:_
 | Interface            | **P**      | **P**     | **P**    | **P**    | Prefix with a capital I.             |
 | Generic Class        | **P**      | **P**     | **P**    | **P**    | User T as Type identifier.           |
 | Method               | **P**      | **P**     | **P**    | **P**    | Use a Verb or Verb-Object pair.      |
+| Static Method        | **P**      | **P**     | **P**    | **P**    | Use a Verb or Verb-Object pair.      |
 | Property             | **P**      | **P**     | **P**    | **P**    | Do not prefix with *Get* or *Set*.   |
 | Field                | **P**      | **P**     | **P**    | **_c**   | Only use Private fields. **No Hungarian Notation!**   |
 | Constant             | **P**      | **P**     | **P**    | **_c**   |                                      |
